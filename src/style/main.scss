@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+canvas {
+	margin: 2em;
+	border: 1px solid black;
+}
+
+#container {
+	display: inline-block;
+}
+
+#game-over {
+	display: inline-block;
+	background: white;
+	padding: 1em;
+
+	&.hidden {
+		display: none;
+	}
+}
+
+#stats-container {
+	margin: 0 auto;
+	max-width: 500px;
+}

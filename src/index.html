@@ -5,11 +5,16 @@
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-  <title>Document</title>
+  <title>Snake</title>
 </head>
 
 <body>
-  <iframe src="https://giphy.com/embed/spbdxMaLCCMik" width="480" height="419" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  <div id='container'><canvas height='200' width ='200'></canvas></div>
+  <div id="stats-container"><p id='stats'></p></div>
+  <div class='hidden' id='game-over'>
+    <h1>Game over</h1>
+    <p>Any key to start again</p>
+  </div>
 </body>
 
 </html>
